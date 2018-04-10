@@ -158,32 +158,27 @@ hr{
   color: #9da0a7;
 }
 
-.userCard footet.media{
-  background-color: #E6686A;
+.userCard > footer.media{
+  background: #E6686A;
   text-align: center;
 }
-
-.userCard svg{
-  width:30px;
-  height:30px;
-  fill:white;
-  margin: 0 16px;
-  vertical-align: top;
-}
-
 .userCard > footer.media > a{
   display: inline-block;
-  border-radius: 50%;
   width: 40px;
   line-height: 30px;
   padding: 5px 0;
+  border-radius: 50%;
   margin: 16px;
 }
-
 .userCard > footer.media > a:hover{
   background: #CF5D5F;
 }
-
+.userCard svg{
+  width: 30px;
+  height: 30px; 
+  fill: white;
+  vertical-align: top;
+}
 
 
 
