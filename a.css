@@ -158,8 +158,9 @@ hr{
   color: #9da0a7;
 }
 
-.userCard footer{
+.userCard footet.media{
   background-color: #E6686A;
+  text-align: center;
 }
 
 .userCard svg{
@@ -182,6 +183,7 @@ hr{
 .userCard > footer.media > a:hover{
   background: #CF5D5F;
 }
+
 
 
 
